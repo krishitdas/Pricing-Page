@@ -1,3 +1,7 @@
+<img src="./coverpage.png" width="100%">
+## Dive into the project
+[<img src="./icon.png" width="60px" alt="icon">](https://krishitdas.github.io/Pricing-Page/)<span><em>(Tap on Pricing tag icon to view the project)</em></span>
+
 ## Cloud Storage Pricing Page with Currency Conversion (https://github.com/krishitdas/Pricing-Page)
 
 This repository contains the code for a responsive and interactive pricing page for a cloud storage service.
