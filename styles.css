@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-image: url('cloud.png'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    padding: 80px 20px; /* Increased padding for more height */
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+    position: relative;
+    z-index: 1;
+}
+
+h1 {
+    margin: 0;
+    color: #d4c9d5; 
+    text-shadow: 0 1px 3px rgb(63, 85, 226); /* Added text shadow for better readability */
+    transition: color 0.3s, transform 0.3s; /* Added transition for smooth effect */
+}
+
+h1:hover {
+    color: #9e9fa2; /* Change to your desired hover color */
+    transform: scale(1.05); /* Slightly enlarge the text */
+}
+
+header h2 {
+    margin: 0;
+    color: #2c1f69; /* Changed to white for better contrast */
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); /* Added text shadow for better readability */
+    transition: color 0.3s, transform 0.3s; /* Added transition for smooth effect */
+}
+header h2:hover {
+    color: #141224; /* Change to your desired hover color */
+    transform: scale(1.05); /* Slightly enlarge the text */
+}
+
+header #convert-button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-top: 20px; /* Added margin for better spacing */
+}
+
+header #convert-button:hover {
+    background-color: #0056b3;
+}
+
+.pricing {
+    display: flex;
+    justify-content: center;
+    margin: -65px 0 20px;
+    width: 100%;
+    max-width: 1100px;
+    gap: 50px;
+    position: relative;
+    z-index: 2;
+}
+.pricing.visible {
+    opacity: 0.95; /* Visible when scrolled into view */
+}
+.pricing-plan {
+    background-color: #e7dddd;
+    border: 1px solid #dfc8c8;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    max-width: 350px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.pricing-plan:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(61, 27, 117, 0.2);
+}
+
+.pricing-plan h2 {
+    margin: 0;
+    color: #3a1b4e;
+}
+
+.price {
+    font-size: 24px;
+    margin: 20px 0;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    color: #120f21;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #5e3281;
+}
