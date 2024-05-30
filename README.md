@@ -2,7 +2,7 @@
 
 # Pricing Page
 ## Dive into the project
-[<img src="./price-tag.png" width="60px" alt="pricing-page-icon">]([https://krishitdas.github.io/Pricing-Page/](https://krishitdas.github.io/Registration-form/))<span><em>(Tap on 🔗 icon to view the project)</em></span>
+[<img src="./price-tag.png" width="60px" alt="pricing-page-icon">](https://krishitdas.github.io/Pricing-Page/)<span><em>(Tap on 🔗 icon to view the project)</em></span>
 
 ## Cloud Storage Pricing Page with Currency Conversion (https://github.com/krishitdas/Pricing-Page)
 
